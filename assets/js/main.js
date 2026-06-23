@@ -60,27 +60,7 @@ const scrollHeader = () => {
 window.addEventListener('scroll', scrollHeader)
 
 /*=============== SWIPER WORK ===============*/
-let swiperWork = new Swiper('.work-swiper', {
-   loop: true,
-   spaceBetween: 24,
-   grabCursor: true,
 
-   navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-   },
-
-   breakpoints: {
-      540: {
-         slidesPerView: 2,
-         spaceBetween: 24,
-      },
-      1150: {
-         slidesPerView: 3,
-         spaceBetween: 32,
-      },
-   },
-});
 
 /*=============== SERVICES ACCORDION ===============*/
 
